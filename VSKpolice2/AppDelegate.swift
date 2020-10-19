@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  VSKpolice2
+//  WSKpolice
 //
-//  Created by ADMIMN on 09.10.2020.
+//  Created by ADMIMN on 07.10.2020.
 //
 
 import UIKit
