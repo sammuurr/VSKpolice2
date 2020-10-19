@@ -11,7 +11,7 @@ class VIewClas: UIView {
 
     
 }
-
+//asdfgh
 extension UIView {
     func makeSnapshot() -> UIImage? {
         let renderer = UIGraphicsImageRenderer(size: frame.size)
