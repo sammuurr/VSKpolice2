@@ -68,7 +68,10 @@ class CollectionViewController: UICollectionViewController {
     }
     override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath){
         if guestMod == false{
-            if indexPath.item == 1 {
+            if indexPath.item == 0{
+                let vc : AnyObject! = self.storyboard!.instantiateViewController(withIdentifier: "criminalcase")
+                self.show(vc as! UIViewController, sender: vc)
+            }else if indexPath.item == 1 {
                 let vc : AnyObject! = self.storyboard!.instantiateViewController(withIdentifier: "departaments")
                 self.show(vc as! UIViewController, sender: vc)
             }else if indexPath.item == 2 {

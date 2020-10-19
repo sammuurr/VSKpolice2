@@ -11,6 +11,9 @@
 		0F2FDCEC2530A4A100D01A5A /* CollectionViewControllerTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2FDCEB2530A4A100D01A5A /* CollectionViewControllerTwo.swift */; };
 		0F4A1CB125343AC7005084E8 /* ViewControllerWanted.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F4A1CB025343AC7005084E8 /* ViewControllerWanted.swift */; };
 		0F59CAEF253434FA00351EF1 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F59CAEE253434FA00351EF1 /* TableViewCell.swift */; };
+		0FC713CD253DD243006F32F8 /* TableViewCellResultsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC713CC253DD243006F32F8 /* TableViewCellResultsCell.swift */; };
+		0FC713DA253DD56A006F32F8 /* TableViewControllerCriminalCases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC713D9253DD56A006F32F8 /* TableViewControllerCriminalCases.swift */; };
+		0FC713DF253DE2F1006F32F8 /* ViewControllerCriminalCaseShow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC713DE253DE2F1006F32F8 /* ViewControllerCriminalCaseShow.swift */; };
 		0FD513A225396B9E0086B77B /* VIewClas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD513A125396B9E0086B77B /* VIewClas.swift */; };
 		0FD513AB2539779A0086B77B /* PhotoInPhotoRobots.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD513AA2539779A0086B77B /* PhotoInPhotoRobots.swift */; };
 		0FD513B12539C83D0086B77B /* WantedPeoples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD513B02539C83D0086B77B /* WantedPeoples.swift */; };
@@ -56,6 +59,9 @@
 		0F2FDCEB2530A4A100D01A5A /* CollectionViewControllerTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewControllerTwo.swift; sourceTree = "<group>"; };
 		0F4A1CB025343AC7005084E8 /* ViewControllerWanted.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerWanted.swift; sourceTree = "<group>"; };
 		0F59CAEE253434FA00351EF1 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		0FC713CC253DD243006F32F8 /* TableViewCellResultsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellResultsCell.swift; sourceTree = "<group>"; };
+		0FC713D9253DD56A006F32F8 /* TableViewControllerCriminalCases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewControllerCriminalCases.swift; sourceTree = "<group>"; };
+		0FC713DE253DE2F1006F32F8 /* ViewControllerCriminalCaseShow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerCriminalCaseShow.swift; sourceTree = "<group>"; };
 		0FD513A125396B9E0086B77B /* VIewClas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VIewClas.swift; sourceTree = "<group>"; };
 		0FD513AA2539779A0086B77B /* PhotoInPhotoRobots.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoInPhotoRobots.swift; sourceTree = "<group>"; };
 		0FD513B02539C83D0086B77B /* WantedPeoples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WantedPeoples.swift; sourceTree = "<group>"; };
@@ -118,6 +124,7 @@
 				0FDA0F9C2535B72000EB846F /* ViewControllerAddNewWanted.swift */,
 				0FF3414B2536ED3E00B4CB31 /* ViewControllerNewPhotoRobots.swift */,
 				0FFE8DD925383652007E89F3 /* ViewControllerPaint.swift */,
+				0FC713DE253DE2F1006F32F8 /* ViewControllerCriminalCaseShow.swift */,
 			);
 			path = "View Controlels";
 			sourceTree = "<group>";
@@ -142,6 +149,7 @@
 		0F5667BA253075CC003664B7 /* components */ = {
 			isa = PBXGroup;
 			children = (
+				0FC713D5253DD3B6006F32F8 /* TableViewControllers */,
 				0FFE8DE52538822F007E89F3 /* View clases */,
 				0FFE8DDE25384B8E007E89F3 /* CanvasControllers */,
 				0F4A1CAF25343A89005084E8 /* View Controlels */,
@@ -159,8 +167,17 @@
 				0F59CAEE253434FA00351EF1 /* TableViewCell.swift */,
 				0FDA0FA62535E4DC00EB846F /* CollectionViewCellPhotoRobots.swift */,
 				0FF341502536ED9F00B4CB31 /* CollectionViewCellNewPhotoRobots.swift */,
+				0FC713CC253DD243006F32F8 /* TableViewCellResultsCell.swift */,
 			);
 			path = cells;
+			sourceTree = "<group>";
+		};
+		0FC713D5253DD3B6006F32F8 /* TableViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				0FC713D9253DD56A006F32F8 /* TableViewControllerCriminalCases.swift */,
+			);
+			path = TableViewControllers;
 			sourceTree = "<group>";
 		};
 		0FD513A92539775E0086B77B /* Phots PhotoRObots */ = {
@@ -411,11 +428,13 @@
 				0F2FDCEC2530A4A100D01A5A /* CollectionViewControllerTwo.swift in Sources */,
 				0FF3414C2536ED3E00B4CB31 /* ViewControllerNewPhotoRobots.swift in Sources */,
 				0F59CAEF253434FA00351EF1 /* TableViewCell.swift in Sources */,
+				0FC713CD253DD243006F32F8 /* TableViewCellResultsCell.swift in Sources */,
 				8E2504DB2530338300D88DEE /* CollectionViewCell.swift in Sources */,
 				0FD513AB2539779A0086B77B /* PhotoInPhotoRobots.swift in Sources */,
 				0FF341512536ED9F00B4CB31 /* CollectionViewCellNewPhotoRobots.swift in Sources */,
 				0FD513B12539C83D0086B77B /* WantedPeoples.swift in Sources */,
 				0FFE8DE025384BB7007E89F3 /* ConvasControlers.swift in Sources */,
+				0FC713DF253DE2F1006F32F8 /* ViewControllerCriminalCaseShow.swift in Sources */,
 				8EC71B0D253035690075AB65 /* CollectionViewCellTwo.swift in Sources */,
 				0FD513A225396B9E0086B77B /* VIewClas.swift in Sources */,
 				0FF3415825370E0F00B4CB31 /* photoRobot.swift in Sources */,
@@ -424,6 +443,7 @@
 				8E25049E2530317900D88DEE /* AppDelegate.swift in Sources */,
 				8E2504A02530317900D88DEE /* SceneDelegate.swift in Sources */,
 				0F4A1CB125343AC7005084E8 /* ViewControllerWanted.swift in Sources */,
+				0FC713DA253DD56A006F32F8 /* TableViewControllerCriminalCases.swift in Sources */,
 				0FFE8DDA25383652007E89F3 /* ViewControllerPaint.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
