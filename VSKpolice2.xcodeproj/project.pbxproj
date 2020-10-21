@@ -7,10 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F0797B2253F1F1C00FC2654 /* CollectionViewCellAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0797B1253F1F1C00FC2654 /* CollectionViewCellAudio.swift */; };
+		0F0797B7253F224B00FC2654 /* ViewControllerAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0797B6253F224B00FC2654 /* ViewControllerAudio.swift */; };
+		0F0797BC253F294C00FC2654 /* www.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0F0797BB253F294C00FC2654 /* www.mp3 */; };
 		0F21722E25346B5600EC5A29 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F21722D25346B5600EC5A29 /* Media.xcassets */; };
 		0F2FDCEC2530A4A100D01A5A /* CollectionViewControllerTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2FDCEB2530A4A100D01A5A /* CollectionViewControllerTwo.swift */; };
 		0F4A1CB125343AC7005084E8 /* ViewControllerWanted.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F4A1CB025343AC7005084E8 /* ViewControllerWanted.swift */; };
 		0F59CAEF253434FA00351EF1 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F59CAEE253434FA00351EF1 /* TableViewCell.swift */; };
+		0FAB9603253EBD5F004A222A /* TableViewCellEvidence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FAB9602253EBD5F004A222A /* TableViewCellEvidence.swift */; };
+		0FAB9608253EC029004A222A /* TableViewControllerEvidence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FAB9607253EC029004A222A /* TableViewControllerEvidence.swift */; };
 		0FC713CD253DD243006F32F8 /* TableViewCellResultsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC713CC253DD243006F32F8 /* TableViewCellResultsCell.swift */; };
 		0FC713DA253DD56A006F32F8 /* TableViewControllerCriminalCases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC713D9253DD56A006F32F8 /* TableViewControllerCriminalCases.swift */; };
 		0FC713DF253DE2F1006F32F8 /* ViewControllerCriminalCaseShow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC713DE253DE2F1006F32F8 /* ViewControllerCriminalCaseShow.swift */; };
@@ -55,10 +60,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F0797B1253F1F1C00FC2654 /* CollectionViewCellAudio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCellAudio.swift; sourceTree = "<group>"; };
+		0F0797B6253F224B00FC2654 /* ViewControllerAudio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerAudio.swift; sourceTree = "<group>"; };
+		0F0797BB253F294C00FC2654 /* www.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = www.mp3; sourceTree = "<group>"; };
 		0F21722D25346B5600EC5A29 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		0F2FDCEB2530A4A100D01A5A /* CollectionViewControllerTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewControllerTwo.swift; sourceTree = "<group>"; };
 		0F4A1CB025343AC7005084E8 /* ViewControllerWanted.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerWanted.swift; sourceTree = "<group>"; };
 		0F59CAEE253434FA00351EF1 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		0FAB9602253EBD5F004A222A /* TableViewCellEvidence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellEvidence.swift; sourceTree = "<group>"; };
+		0FAB9607253EC029004A222A /* TableViewControllerEvidence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewControllerEvidence.swift; sourceTree = "<group>"; };
 		0FC713CC253DD243006F32F8 /* TableViewCellResultsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellResultsCell.swift; sourceTree = "<group>"; };
 		0FC713D9253DD56A006F32F8 /* TableViewControllerCriminalCases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewControllerCriminalCases.swift; sourceTree = "<group>"; };
 		0FC713DE253DE2F1006F32F8 /* ViewControllerCriminalCaseShow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerCriminalCaseShow.swift; sourceTree = "<group>"; };
@@ -125,6 +135,7 @@
 				0FF3414B2536ED3E00B4CB31 /* ViewControllerNewPhotoRobots.swift */,
 				0FFE8DD925383652007E89F3 /* ViewControllerPaint.swift */,
 				0FC713DE253DE2F1006F32F8 /* ViewControllerCriminalCaseShow.swift */,
+				0F0797B6253F224B00FC2654 /* ViewControllerAudio.swift */,
 			);
 			path = "View Controlels";
 			sourceTree = "<group>";
@@ -132,6 +143,7 @@
 		0F5667B725306E9F003664B7 /* controllers */ = {
 			isa = PBXGroup;
 			children = (
+				0F0797BB253F294C00FC2654 /* www.mp3 */,
 				0FF3415525370D9100B4CB31 /* model */,
 				0F5667B825306EC0003664B7 /* main */,
 			);
@@ -168,6 +180,8 @@
 				0FDA0FA62535E4DC00EB846F /* CollectionViewCellPhotoRobots.swift */,
 				0FF341502536ED9F00B4CB31 /* CollectionViewCellNewPhotoRobots.swift */,
 				0FC713CC253DD243006F32F8 /* TableViewCellResultsCell.swift */,
+				0FAB9602253EBD5F004A222A /* TableViewCellEvidence.swift */,
+				0F0797B1253F1F1C00FC2654 /* CollectionViewCellAudio.swift */,
 			);
 			path = cells;
 			sourceTree = "<group>";
@@ -176,6 +190,7 @@
 			isa = PBXGroup;
 			children = (
 				0FC713D9253DD56A006F32F8 /* TableViewControllerCriminalCases.swift */,
+				0FAB9607253EC029004A222A /* TableViewControllerEvidence.swift */,
 			);
 			path = TableViewControllers;
 			sourceTree = "<group>";
@@ -398,6 +413,7 @@
 				8E2504AA2530317C00D88DEE /* LaunchScreen.storyboard in Resources */,
 				0F21722E25346B5600EC5A29 /* Media.xcassets in Resources */,
 				8E2504A52530317900D88DEE /* Main.storyboard in Resources */,
+				0F0797BC253F294C00FC2654 /* www.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,17 +447,21 @@
 				0FC713CD253DD243006F32F8 /* TableViewCellResultsCell.swift in Sources */,
 				8E2504DB2530338300D88DEE /* CollectionViewCell.swift in Sources */,
 				0FD513AB2539779A0086B77B /* PhotoInPhotoRobots.swift in Sources */,
+				0F0797B2253F1F1C00FC2654 /* CollectionViewCellAudio.swift in Sources */,
 				0FF341512536ED9F00B4CB31 /* CollectionViewCellNewPhotoRobots.swift in Sources */,
 				0FD513B12539C83D0086B77B /* WantedPeoples.swift in Sources */,
 				0FFE8DE025384BB7007E89F3 /* ConvasControlers.swift in Sources */,
 				0FC713DF253DE2F1006F32F8 /* ViewControllerCriminalCaseShow.swift in Sources */,
 				8EC71B0D253035690075AB65 /* CollectionViewCellTwo.swift in Sources */,
+				0FAB9608253EC029004A222A /* TableViewControllerEvidence.swift in Sources */,
 				0FD513A225396B9E0086B77B /* VIewClas.swift in Sources */,
 				0FF3415825370E0F00B4CB31 /* photoRobot.swift in Sources */,
 				0FDA0F9D2535B72000EB846F /* ViewControllerAddNewWanted.swift in Sources */,
 				0FDA0FA72535E4DC00EB846F /* CollectionViewCellPhotoRobots.swift in Sources */,
 				8E25049E2530317900D88DEE /* AppDelegate.swift in Sources */,
 				8E2504A02530317900D88DEE /* SceneDelegate.swift in Sources */,
+				0F0797B7253F224B00FC2654 /* ViewControllerAudio.swift in Sources */,
+				0FAB9603253EBD5F004A222A /* TableViewCellEvidence.swift in Sources */,
 				0F4A1CB125343AC7005084E8 /* ViewControllerWanted.swift in Sources */,
 				0FC713DA253DD56A006F32F8 /* TableViewControllerCriminalCases.swift in Sources */,
 				0FFE8DDA25383652007E89F3 /* ViewControllerPaint.swift in Sources */,
